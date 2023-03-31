@@ -1,0 +1,14 @@
+[
+  {
+    "compName": "Button",
+    "compZhName": "按钮",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "button"
+  },
+  {
+    "compName": "Text",
+    "compZhName": "文本",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "text"
+  }
+]
