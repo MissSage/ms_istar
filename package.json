@@ -1,10 +1,12 @@
 {
-  "name": "my-kit",
+  "name": "ms_istar",
   "version": "0.0.0",
+  "author": "MissSage",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
+    "docs:deploy": "bash deploy.sh",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "gen": "node ./script/genNewComp/index.js",
@@ -31,5 +33,6 @@
     "vite-plugin-md": "^0.11.4",
     "vitepress": "1.0.0-alpha.64",
     "vue-tsc": "^0.28.10"
-  }
+  },
+  "git": "https://github.com/MissSage/ms_istar"
 }
