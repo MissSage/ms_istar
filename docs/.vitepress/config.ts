@@ -2,6 +2,7 @@ import path from 'path'
 import {defineConfig} from 'vitepress'
 import { themeConfig } from './themeConfigs'
 export default defineConfig({
+  base: '/ms_istar/',
   lastUpdated: true,
   title: '自定义的 title',
   outDir: path.resolve(__dirname,'dist'),
