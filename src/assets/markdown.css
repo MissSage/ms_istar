@@ -271,3 +271,6 @@ code {
 pre {
     max-height: 500px;
 }
+.vp-doc [class*='language-'] code{
+    color: #666;
+}

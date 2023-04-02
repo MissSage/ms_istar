@@ -1,5 +1,5 @@
 <template>
-  <div class="mykit-preview">
+  <div class="istar-preview">
     <section>
       <slot></slot>
     </section>
@@ -75,7 +75,7 @@ export default {
 pre {
   line-height: 0;
 }
-.mykit-preview {
+.istar-preview {
   border: 4px;
   border: 1px dashed #666;
   padding: 10px;
