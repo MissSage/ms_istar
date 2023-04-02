@@ -56,4 +56,4 @@ jobs:
           cd /usr/local/nginx/html/ms_istar
           wget https://github.com/MissSage/ms_istar/releases/latest/download/release.tgz -O release.tgz --no-check-certificate
           tar zxvf release.tgz
-          nginx -s reload
+      run: nginx -s reload

@@ -28,6 +28,13 @@ const routes: RouteRecordRaw[] = [
     name: 'Table',
     path: '/components/Table',
     component: () => import('../../examples/Table.vue'),
+  },{
+    meta: {
+      title: '分页'
+    },
+    name: 'Pagination',
+    path: '/components/Pagination',
+    component: () => import('../../examples/Pagination.vue'),
   }
 ]
 

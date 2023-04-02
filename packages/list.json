@@ -16,5 +16,11 @@
     "compZhName": "表格",
     "compDesc": "表格",
     "compClassName": "table"
+  },
+  {
+    "compName": "Pagination",
+    "compZhName": "分页",
+    "compDesc": "分页",
+    "compClassName": "pagination"
   }
 ]
