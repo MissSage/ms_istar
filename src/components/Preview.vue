@@ -97,6 +97,9 @@ pre {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.source-code,.preview-bottom{
   border-top: 1px dashed #666;
+
 }
 </style>

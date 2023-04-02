@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <ISTAR{{ compName }} />
-  </div>
+  <ISTAR{{ compName }} />
 </template>
 <script setup>
 import ISTAR{{compName}} from '../packages/{{compName}}/src/index.vue'
