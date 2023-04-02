@@ -1,3 +1,3 @@
 import { DefaultTheme } from 'vitepress'
 
-export const socialLinks:DefaultTheme.SocialLink[] = [{ icon: "github", link: "https://github.com" }]
+export const socialLinks:DefaultTheme.SocialLink[] = [{ icon: "github", link: "https://github.com/MissSage/ms_istar" }]
