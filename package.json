@@ -1,7 +1,14 @@
 {
   "name": "ms_istar",
-  "version": "0.0.0",
-  "author": "MissSage",
+  "version": "0.0.21",
+  "author": {
+    "name": "MissSage",
+    "email": "184078718@qq.com"
+  },
+  "private": false,
+  "type": "module",
+  "main": "dist/istar.es.js",
+  "types": "./dist/packages/index.d.ts",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -13,6 +20,29 @@
     "gen": "node ./script/genNewComp/index.js",
     "clear": "node ./script/genNewComp/clear.js",
     "clearOne": "node ./script/genNewComp/clearOne.js"
+  },
+  "files": [
+    "dist",
+    "src/packages",
+    "src/types",
+    "styles"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/istar.es.js",
+      "require": "./dist/istar.umd.cjs"
+    },
+    "./style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MissSage/ms_istar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MissSage/ms_istar/issues"
   },
   "dependencies": {
     "prismjs": "^1.25.0",
@@ -34,6 +64,5 @@
     "vite-plugin-md": "^0.11.4",
     "vitepress": "1.0.0-alpha.64",
     "vue-tsc": "^0.28.10"
-  },
-  "git": "https://github.com/MissSage/ms_istar"
+  }
 }
