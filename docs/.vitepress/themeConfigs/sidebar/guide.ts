@@ -11,18 +11,6 @@ export const guide: DefaultTheme.SidebarItem[] = [
       {
         text: '按钮(Button)',
         link: '/guide/Button',
-      },
-      {
-        text: '文本(Text)',
-        link: '/guide/Text',
-      },
-      {
-        text: '表格(Table)',
-        link: '/guide/Table',
-      },
-      {
-        text: '分页(Pagination)',
-        link: '/guide/Pagination',
       }
     ],
     collapsed: false

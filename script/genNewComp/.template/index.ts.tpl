@@ -1,12 +1,12 @@
 import { App, Plugin } from 'vue';
-import {{ compName }} from './src/index.vue';
+import Istar{{ compName }} from './src/index.vue';
 
-export const {{ compName }}Plugin: Plugin = {
+export const Istar{{ compName }}Plugin: Plugin = {
   install(app: App) {
-    app.component('istar-{{ compClassName }}', {{ compName }});
+    app.component('istar-{{ compClassName }}', Istar{{ compName }});
   },
 };
 
 export {
-  {{ compName }},
+  Istar{{compName}},
 };

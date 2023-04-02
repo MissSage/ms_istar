@@ -11,7 +11,7 @@ import Preview from '../../src/components/Preview.vue'
 
 # 按钮
 
-默认：这是一个新组件
+按钮
 
 ## 基础用法
 

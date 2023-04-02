@@ -1,17 +1,13 @@
 <template>
-  <div class="istar-button">
-    <button><slot>{{ text }}</slot></button>
-  </div>
+  <el-button><slot></slot></el-button>
 </template>
 
 <script lang="ts" setup>
-const props = defineProps<{
-  text?: string
-}>()
+import { ElButton } from "element-plus";
+import "element-plus/es/components/button/style/css";
 </script>
 
 <style scoped>
 .istar-button {
-  
 }
 </style>

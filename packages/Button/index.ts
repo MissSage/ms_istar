@@ -1,12 +1,12 @@
 import { App, Plugin } from 'vue';
-import Button from './src/index.vue';
+import IstarButton from './src/index.vue';
 
-export const ButtonPlugin: Plugin = {
+export const IstarButtonPlugin: Plugin = {
   install(app: App) {
-    app.component('istar-button', Button);
+    app.component('istar-button', IstarButton);
   },
 };
 
 export {
-  Button,
+  IstarButton,
 };

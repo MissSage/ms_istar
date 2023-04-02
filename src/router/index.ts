@@ -14,27 +14,6 @@ const routes: RouteRecordRaw[] = [
     name: 'Button',
     path: '/components/Button',
     component: () => import('../../examples/Button.vue'),
-  },{
-    meta: {
-      title: '文本'
-    },
-    name: 'Text',
-    path: '/components/Text',
-    component: () => import('../../examples/Text.vue'),
-  },{
-    meta: {
-      title: '表格'
-    },
-    name: 'Table',
-    path: '/components/Table',
-    component: () => import('../../examples/Table.vue'),
-  },{
-    meta: {
-      title: '分页'
-    },
-    name: 'Pagination',
-    path: '/components/Pagination',
-    component: () => import('../../examples/Pagination.vue'),
   }
 ]
 

@@ -6,7 +6,6 @@
     "email": "184078718@qq.com"
   },
   "private": false,
-  "type": "module",
   "main": "dist/istar.es.js",
   "types": "./dist/packages/index.d.ts",
   "scripts": {
@@ -52,6 +51,7 @@
   "devDependencies": {
     "@types/node": "^16.11.12",
     "@vitejs/plugin-vue": "^1.10.2",
+    "element-plus": "^2.3.2",
     "fs-extra": "^10.0.0",
     "handlebars": "^4.7.7",
     "inquirer": "^8.2.0",

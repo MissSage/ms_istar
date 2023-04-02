@@ -113,8 +113,8 @@ const installTsTplReplacer = listFileContent => {
   const installFileTo = "../../packages/index.ts" // 这里没有写错，别慌
   const installFileTpl = fs.readFileSync(resolve(__dirname, installFileFrom), "utf-8")
   const installMeta = {
-    importPlugins: listFileContent.map(({ compName }) => `import { ${compName}Plugin } from './${compName}';`).join("\n"),
-    installPlugins: listFileContent.map(({ compName }) => `${compName}Plugin.install?.(app);`).join("\n    "),
+    importPlugins: listFileContent.map(({ compName }) => `import { Istar${compName}Plugin } from './${compName}';`).join("\n"),
+    installPlugins: listFileContent.map(({ compName }) => `Istar${compName}Plugin.install?.(app);`).join("\n    "),
     exportPlugins: listFileContent.map(({ compName }) => `export * from './${compName}'`).join("\n")
   }
   const installFileContent = handlebars.compile(installFileTpl, { noEscape: true })(installMeta)
