@@ -21,6 +21,13 @@ const routes: RouteRecordRaw[] = [
     name: 'Text',
     path: '/components/Text',
     component: () => import('../../examples/Text.vue'),
+  },{
+    meta: {
+      title: '表格'
+    },
+    name: 'Table',
+    path: '/components/Table',
+    component: () => import('../../examples/Table.vue'),
   }
 ]
 

@@ -10,5 +10,11 @@
     "compZhName": "文本",
     "compDesc": "默认：这是一个新组件",
     "compClassName": "text"
+  },
+  {
+    "compName": "Table",
+    "compZhName": "表格",
+    "compDesc": "表格",
+    "compClassName": "table"
   }
 ]

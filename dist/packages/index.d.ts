@@ -8,3 +8,4 @@ declare const ISTARPlugin: Plugin;
 export default ISTARPlugin;
 export * from './Button';
 export * from './Text';
+export * from './Table';

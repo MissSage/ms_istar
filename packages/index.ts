@@ -9,11 +9,13 @@ import { App, Plugin } from 'vue';
 
 import { ButtonPlugin } from './Button';
 import { TextPlugin } from './Text';
+import { TablePlugin } from './Table';
 
 const ISTARPlugin: Plugin = {
   install(app: App) {
     ButtonPlugin.install?.(app);
     TextPlugin.install?.(app);
+    TablePlugin.install?.(app);
   },
 };
 
@@ -21,3 +23,4 @@ export default ISTARPlugin;
 
 export * from './Button'
 export * from './Text'
+export * from './Table'

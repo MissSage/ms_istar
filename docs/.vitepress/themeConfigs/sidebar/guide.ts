@@ -15,6 +15,10 @@ export const guide: DefaultTheme.SidebarItem[] = [
       {
         text: '文本(Text)',
         link: '/guide/Text',
+      },
+      {
+        text: '表格(Table)',
+        link: '/guide/Table',
       }
     ],
     collapsed: false
